@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+body {
+  font-family: "Jost", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 20px;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+#topbar {
+  background-color: #ff0000;
+}
+#topbar p {
+  color: #ffffff;
+}
+
+#navbar h1 {
+  font-size: 80px;
+}
+#navbar h3 {
+  color: #ef8224;
+}
+#navbar .flag_img {
+  width: 35px;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 360px) {
+  #navbar img {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+  #navbar h1 {
+    font-size: 50px;
+  }
+}
+#first_section img {
+  width: 100%;
+}
+#first_section h2 {
+  font-weight: 600;
+}
+#first_section ul li {
+  font-size: 25px;
+}
+#first_section ul li i {
+  color: #ef8224;
+}
+#first_section #price_div {
+  border-radius: 10px;
+  padding: 5px 0;
+  background-color: #3DC051;
+}
+#first_section #price_div p {
+  color: #ffffff;
+}
+#first_section #price_div h3 {
+  color: #ffffff;
+  font-weight: 600;
+}
+#first_section .btn {
+  background-color: #84C439;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+#first_section .fast_delivery {
+  background-color: #AC54F7;
+  padding: 5px;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+#second_section h2 {
+  font-size: 35px;
+  font-weight: 600;
+}
+#second_section #second_bg {
+  background-image: url("./images/second.jpeg");
+  background-position: center;
+  background-size: cover;
+  padding: 30px 0;
+}
+#second_section #second_bg h2 {
+  font-size: 50px;
+}
+#second_section #second_bg .second_head {
+  background-color: #ef8224;
+  padding: 20px 0;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+#second_section #second_bg .second_head h3 {
+  color: #ffffff;
+}
+#second_section #second_bg .second_head h2 {
+  color: #ffffff;
+}
+#second_section #second_bg .second_left_div {
+  background-color: #ffffff;
+  padding: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+#second_section #second_bg .second_right_div {
+  background-color: #ffffff;
+  padding: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+#third_section {
+  background-color: #F58E13;
+}
+#third_section img {
+  width: 100%;
+}
+#third_section h2 {
+  font-size: 60px;
+  font-weight: 600;
+  color: #ffffff;
+}
+#third_section p {
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+  #third_section h2 {
+    font-size: 40px;
+  }
+}
+#forth_section h2 {
+  font-size: 45px;
+  font-weight: 600;
+}
+#forth_section h3 {
+  font-weight: 600;
+}
+
+#fifth_section {
+  background-color: #84C439;
+}
+#fifth_section h2 {
+  font-size: 60px;
+  font-weight: 600;
+  color: #ffffff;
+}
+#fifth_section h2 #fifth_bracket {
+  font-size: 20px;
+  color: #391a53;
+}
+#fifth_section p {
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+  #fifth_section h2 {
+    font-size: 40px;
+  }
+  #fifth_section img {
+    width: 100%;
+  }
+}
+#sixth_section h2 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #84C439;
+}
+#sixth_section img {
+  width: 100%;
+}
+#sixth_section .btn {
+  background-color: #AC54F7;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+  #sixth_section h2 {
+    font-size: 40px;
+  }
+}
+#copywrite {
+  padding: 10px;
+  background-color: #ef8224;
+}
+#copywrite p {
+  color: #ffffff;
+}/*# sourceMappingURL=style.css.map */
